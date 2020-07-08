@@ -1,0 +1,29 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'partials/variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+// Font Awesome
+@import '~font-awesome/css/font-awesome.min.css';
+
+//Default
+@import 'partials/default';
+//navbar
+@import 'partials/navbar';
+//sidebar
+@import 'partials/sidebar';
+//card
+@import 'partials/card';
+//Buttons
+@import 'partials/buttons';
+//Home
+@import 'partials/home';
+
+//Calander
+@import '~@fullcalendar/core/main.min.css';
+@import '~@fullcalendar/daygrid/main.min.css';
+@import '~@fullcalendar/bootstrap/main.css';
+
