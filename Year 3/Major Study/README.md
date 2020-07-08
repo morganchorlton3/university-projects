@@ -8,3 +8,6 @@ ADS Git Repo:
 ADS Mobile Application Git Repo:
 
     https://github.com/morganchorlton3/ADSMobile
+
+ADS POS Git Repo:
+    https://github.com/morganchorlton3/ADS-POS
