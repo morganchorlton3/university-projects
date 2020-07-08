@@ -1,0 +1,12 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^selene.hud.ac.uk$ [NC,OR]
+
+RewriteCond %{HTTP_HOST} ^selene.hud.ac.uk$
+
+RewriteCond %{REQUEST_URI} !u1753026/
+
+RewriteRule (.*) /u1753026/$1 [L]
+
+RewriteRule ^([^/]+)/? index.php?url=$1 [L,QSA]
+
